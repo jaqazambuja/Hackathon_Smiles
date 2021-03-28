@@ -1,0 +1,87 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container{
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  
+}
+
+#logo{
+  width: 100px;
+ height: 100px;
+ margin-left: -70px;
+ 
+}
+
+.nome{
+  margin-left: -280px;
+  color: #bfbfbf
+}
+
+#botao1{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 500px;
+  
+
+}
+
+#botao2{
+  margin-top: 30px;
+  margin-right: -77px;
+  background-color: white;
+  color: #bfbfbf   
+
+
+
+}
+
+
+.container-card-body {
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+ 
+}
+
+.card-body{
+  margin-top: 160px;
+  margin-left: 75px;
+}
+
+#card-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #1890ff;
+}
+
+.card-text{
+  margin-top: 25px;
+  font-size: 20px;
+  color: #bfbfbf
+  
+}
+
+#botao3{
+  margin-top: 30px;
+  width: 25%;
+  
+}
+
+#home{
+  width: 50%;
+  height: 100%;
+ 
+ 
+}
