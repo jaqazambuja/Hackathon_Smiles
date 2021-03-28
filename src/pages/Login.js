@@ -7,7 +7,7 @@ const Login = () => {
 
 
 <div className="flex-container">
-            <div class="rounded-logo"><a ><img src={require('../img/aviaoazul.png').default} id="logo"  alt="Imagem responsiva"  /></a></div>
+            <div class="rounded-logo"><a ><img src={require('../img/logo.png').default} id="logo"  alt="Imagem responsiva"  /></a></div>
 
             <h1 className="nome">Nome</h1>
             <div> 

@@ -6,14 +6,14 @@ const Recuperarsenha = () => {
     <>
       <div className="barra-lateral">
         <img
-          src={require("../img/aviaoazul.png").default}
+          src={require("../img/logo.png").default}
           id="logo"
           alt="Imagem responsiva"
         />
 
         <div className="link-to-home">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -31,7 +31,7 @@ const Recuperarsenha = () => {
 
         <div className="link-to-out">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -56,7 +56,7 @@ const Recuperarsenha = () => {
               <p>Icaro Silva</p>
               <p>icarosilva@gmail.com</p>
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -73,7 +73,7 @@ const Recuperarsenha = () => {
 
             <div className="item-1">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -81,7 +81,7 @@ const Recuperarsenha = () => {
 
             <div className="item-2">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -89,7 +89,7 @@ const Recuperarsenha = () => {
 
             <div className="item-3">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -97,7 +97,7 @@ const Recuperarsenha = () => {
 
             <div className="item-4">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />

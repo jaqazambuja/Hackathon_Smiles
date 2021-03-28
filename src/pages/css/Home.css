@@ -8,14 +8,14 @@
 }
 
 #logo {
-  width: 65px;
-  height: 60px;
+  width: 95px;
+  height: 70px;
 }
 
 .nome {
   flex: 24;
-  margin: 15px 0 15px 10px;
-  font-size: 28px;
+  margin: 23px 0 15px 0;
+  font-size: 24px;
   font-weight: bold;
   color: #6e6e6e;
 }
@@ -86,11 +86,11 @@
 }
 
 #elipse {
-  width: 80%;
+  width: 90%;
   height: 100%;
   position: relative;
-  left: 120px;
-  top: -40px;
+  left: 100px;
+  top: -160px;
 }
 
 #illustration-home {

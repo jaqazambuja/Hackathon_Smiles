@@ -6,14 +6,14 @@ const Cadastrese = () => {
     <>
       <div className="barra-lateral">
         <img
-          src={require("../img/aviaoazul.png").default}
+          src={require("../img/logo.png").default}
           id="logo"
           alt="Imagem responsiva"
         />
 
         <div className="link-to-home">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -31,7 +31,7 @@ const Cadastrese = () => {
 
         <div className="link-to-out">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -57,7 +57,7 @@ const Cadastrese = () => {
               <p>Icaro Silva</p>
               <p>icarosilva@gmail.com</p>
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -83,7 +83,7 @@ const Cadastrese = () => {
          </div>
 
          <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="illustration-jornada"
             alt="Imagem responsiva"
           />
