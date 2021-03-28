@@ -8,8 +8,8 @@ const Login = () => {
         <div class="rounded-logo">
           <a>
             <img
-              src={require("../img/logo.png").default}
-              id="logo"
+              src={require("../img/logo-branca.png").default}
+              id="logo-login"
               alt="Imagem responsiva"
             />
           </a>
