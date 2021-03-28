@@ -9,7 +9,7 @@ const Home = () => {
         <div class="rounded-logo">
           <a>
             <img
-              src={require("../img/logohack.png").default}
+              src={require("../img/logo-branca.png").default}
               id="logo"
               alt="Imagem responsiva"
             />
@@ -67,12 +67,12 @@ const Home = () => {
         <div class="rounded-logo">
           <a>
             <img
-              src={require("../img/home.png.png").default}
+              src={require("../img/elipse.png").default}
               id="elipse"
               alt="Imagem responsiva"
             />
             <img
-              src={require("../img/home.png.png").default}
+              src={require("../img/illustration.png").default}
               id="illustration-home"
               alt="Imagem responsiva"
             />

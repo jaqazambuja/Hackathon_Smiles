@@ -1,0 +1,10 @@
+.container-discovery {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-horizontal {
+  display: flex;
+  justify-content: space-between;
+}
+

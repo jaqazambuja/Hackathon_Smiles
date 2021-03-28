@@ -6,14 +6,14 @@ const Match = () => {
     <>
       <div className="barra-lateral">
         <img
-          src={require("../img/aviaoazul.png").default}
+          src={require("../img/logo.png").default}
           id="logo"
           alt="Imagem responsiva"
         />
 
         <div className="link-to-home">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -31,7 +31,7 @@ const Match = () => {
 
         <div className="link-to-out">
           <img
-            src={require("../img/aviaoazul.png").default}
+            src={require("../img/logo.png").default}
             id="logo"
             alt="Imagem responsiva"
           />
@@ -56,7 +56,7 @@ const Match = () => {
               <p>Icaro Silva</p>
               <p>icarosilva@gmail.com</p>
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="foto-perfil"
                 alt="Imagem responsiva"
               />
@@ -69,7 +69,7 @@ const Match = () => {
             <h1>Rotas perfeitas para você</h1>
             <div className="rota-1">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />
@@ -79,7 +79,7 @@ const Match = () => {
 
             <div className="rota-2">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />
@@ -89,7 +89,7 @@ const Match = () => {
 
             <div className="rota-3">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />
@@ -102,7 +102,7 @@ const Match = () => {
             <h3>Em alta</h3>
             <div className="rota-1">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />
@@ -112,7 +112,7 @@ const Match = () => {
 
             <div className="rota-2">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />
@@ -122,7 +122,7 @@ const Match = () => {
 
             <div className="rota-3">
               <img
-                src={require("../img/aviaoazul.png").default}
+                src={require("../img/logo.png").default}
                 id="logo"
                 alt="Imagem responsiva"
               />

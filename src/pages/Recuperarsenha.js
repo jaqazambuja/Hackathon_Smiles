@@ -9,6 +9,7 @@ import '../../src/pages/css/Sidebar.css';
 const Recuperarsenha = () => {
   return (
     <>
+
          <Container fluid>
                 <Row>
                     <Col xs={2} id="sidebar-wrapper">      
@@ -21,7 +22,12 @@ const Recuperarsenha = () => {
 
             </Container>
         </>
+
   );
 };
 
 export default Recuperarsenha;
+
+
+
+

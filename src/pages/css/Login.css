@@ -1,5 +1,42 @@
-.container-flex-login {
+.flex-container {
   max-width: 960px;
   margin: 0 auto;
-  background-color: coral;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.rounded-logo {
+  align-self: center;
+}
+
+#logo-login {
+  width: 300px;
+  height: 300px;
+}
+
+.callback-login {
+  font-weight: bold;
+  color:  #1890ff;
+  position: relative;
+  right: 102px;
+  margin-bottom: 20px;
+}
+
+.Login-app-form-control {
+  border: 1px solid #E6E6E6;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.Login-app-form-button {
+  background: #1890ff;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  width: 120px;
+  padding: 5px;
+  margin-top: 20px;
 }
