@@ -10,8 +10,14 @@ const Login = () => {
             <div class="rounded-logo"><a ><img src={require('../img/aviaoazul.png').default} id="logo"  alt="Imagem responsiva"  /></a></div>
 
             <h1 className="nome">Nome</h1>
-    
-            </div>
+            <div> 
+            <p ClassName="botao">  
+                <a href="../Login" button type="button" class="btn btn-primary" id='botao1'> Login</a>
+                <a href="../Cadastrese"  button type="button" class="btn btn-primary" id='botao2'>Cadastre-se</a>
+           
+ </p>
+         </div>
+        </div>
 
         
         <form action=""  method="post" >
