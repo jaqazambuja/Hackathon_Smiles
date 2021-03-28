@@ -8,8 +8,8 @@
 }
 
 #logo {
-  width: 95px;
-  height: 70px;
+  width: 40px;
+  height: 35px;
 }
 
 .nome {
@@ -54,7 +54,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 38px;
   font-weight: bold;
-  color: #1890ff;
+  color: #F68E1E;
 }
 
 .card-text {
