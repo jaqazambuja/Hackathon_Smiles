@@ -8,27 +8,19 @@ const Side = props => {
 
     return (
         <>
-    
+          
             <Nav className="col-md-12 d-none d-md-block bg-light sidebar"
             activeKey="/home"
             onSelect={selectedKey => alert(`selected ${selectedKey}`)}
             >
                 <div className="sidebar-sticky"></div>
+                <img className="logo-sidebar" src={require("../../img/logo-azul.png").default}></img>
             <Nav.Item>
-                <Nav.Link href="/home">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                Disabled
-                </Nav.Link>
+            <img className="icon-home" src={require("../../img/home.png").default}></img>
+                <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
             </Nav>
+            
           
         </>
         );

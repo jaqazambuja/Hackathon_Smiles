@@ -1,10 +1,92 @@
-.container-discovery {
-  max-width: 960px;
+.match-container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .menu-horizontal {
   display: flex;
   justify-content: space-between;
+  padding-top: 55px;
 }
 
+.menu-horizontal > h1 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #595959;
+  position: relative;
+  bottom: -12px;
+}
+
+.box-profile {
+  display: flex;
+}
+
+.box-profile > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.dados-usuario {
+  margin: 15px 10px;
+}
+
+.dados-usuario p:nth-child(1) {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.dados-usuario p:nth-child(2) {
+  color: #8C8C8C;
+}
+
+.carossel-1 > h2, .carossel-2 > h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #9C9C9C;
+  margin: 46px 0 32px 0;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.rota-1, .rota-2, .rota-3 {
+  flex: 1;
+  border-radius: 14px;
+  margin: 0 10px 0 0;
+}
+
+.rota-1 h3, .rota-2 h3, .rota-3 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.rota-1 p, .rota-2 p, .rota-3 p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.local {
+  padding: 0 0 25px 25px;
+}
+
+.rota-1 {
+  background: #FE7676;
+}
+
+.rota-2 {
+  background: #FEA35E;
+}
+
+.rota-3 {
+  background: #FE5E89;
+}
+
+.btn-rota {
+  margin-top: 10px;
+  cursor: pointer;
+}

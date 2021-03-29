@@ -4,51 +4,9 @@ import React from "react";
 const Match = () => {
   return (
     <>
-      <div className="barra-lateral">
-        <img
-          src={require("../img/logo.png").default}
-          id="logo"
-          alt="Imagem responsiva"
-        />
+      <Sidebar/>
 
-        <div className="link-to-home">
-          <img
-            src={require("../img/logo.png").default}
-            id="logo"
-            alt="Imagem responsiva"
-          />
-          <a
-            href="../Login"
-            button
-            type="button"
-            class="btn btn-primary"
-            id="botao1"
-          >
-            {" "}
-            Login
-          </a>
-        </div>
-
-        <div className="link-to-out">
-          <img
-            src={require("../img/logo.png").default}
-            id="logo"
-            alt="Imagem responsiva"
-          />
-          <a
-            href="../Login"
-            button
-            type="button"
-            class="btn btn-primary"
-            id="botao1"
-          >
-            {" "}
-            Login
-          </a>
-        </div>
-      </div>
-
-      <div className="container">
+      <div className="match-container">
         <div className="menu-horizontal">
           <h1>Rota traçada!</h1>
           <div className="box-profile">
