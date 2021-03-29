@@ -43,7 +43,7 @@ const Recuperarsenha = () => {
               knew it, we had left the ground.
             </p>
             <a
-              href="https://www.smiles.com.br/home"
+              href="/cadastrese"
               button
               type="button"
               class="btn btn-primary btn-rota"

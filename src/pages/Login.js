@@ -18,7 +18,7 @@ const Login = () => {
 
         <h1 className="h1-login">Login</h1>
 
-        <form action="" method="post">
+        <form action="/recuperarsenha" method="">
           <div className="Login-screen-body-item">
             <div className="Login-app-form">
               <div className="Login-app-form-group">
