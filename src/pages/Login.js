@@ -4,18 +4,19 @@ import React from "react";
 const Login = () => {
   return (
     <>
-      <div className="flex-container">
-        <div class="rounded-logo">
+      <div className="flex-container-login">
+        <div class="rounded-logo-login">
           <a>
             <img
-              src={require("../img/logo-branca.png").default}
+              src={require("../img/logo.png").default}
               id="logo-login"
               alt="Imagem responsiva"
             />
           </a>
+          <h2>My Travel</h2>
         </div>
 
-        <h1 className="callback-login">Login</h1>
+        <h1 className="h1-login">Login</h1>
 
         <form action="" method="post">
           <div className="Login-screen-body-item">
@@ -47,6 +48,14 @@ const Login = () => {
             </div>
           </div>
         </form>
+      </div>
+
+      <div className="container-img">
+        <img
+          src={require("../img/imagem-login.png").default}
+          id="imagem-login"
+          alt="Imagem responsiva"
+        />
       </div>
     </>
   );

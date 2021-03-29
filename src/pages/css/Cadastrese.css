@@ -1,4 +1,4 @@
-.match-container {
+.discovery-container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -7,6 +7,9 @@
   display: flex;
   justify-content: space-between;
   padding-top: 55px;
+  position: relative;
+  top: 0;
+  
 }
 
 .menu-horizontal > h1 {

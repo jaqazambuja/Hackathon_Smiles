@@ -1,34 +1,49 @@
-.flex-container {
-  max-width: 960px;
+.flex-container-login {
+  display: flex;
+  max-width: 980px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
-  align-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
-.rounded-logo {
-  align-self: center;
+.rounded-logo-login {
+  display: flex;
+  align-self: flex-start;
+}
+
+.rounded-logo-login h2 {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  bottom: -50px;
+  left: -25px;
+  color: #6e6e6e;
 }
 
 #logo-login {
-  width: 300px;
-  height: 300px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 120px;
+  position: relative;
+  left: -20px;
 }
 
-.callback-login {
+.h1-login {
+  font-size: 48px;
   font-weight: bold;
-  color:  #1890ff;
+  color: #F68E1E;
   position: relative;
-  right: 102px;
-  margin-bottom: 20px;
+  right: 5px;
+  margin-bottom: 60px;
 }
 
 .Login-app-form-control {
   border: 1px solid #E6E6E6;
   padding: 10px;
   width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .Login-app-form-button {
@@ -39,4 +54,12 @@
   width: 120px;
   padding: 5px;
   margin-top: 20px;
+}
+
+#imagem-login {
+  max-width: 800px;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

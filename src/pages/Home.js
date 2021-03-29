@@ -5,7 +5,7 @@ import Rodape from "../Components/Rodape/Rodape";
 const Home = () => {
   return (
     <>
-      <div className="flex-container">
+      <div className="flex-container-home">
         <div class="rounded-logo">
           <a>
             <img
@@ -16,7 +16,7 @@ const Home = () => {
           </a>
         </div>
 
-        <h1 className="nome">Nome</h1>
+        <h1 className="nome">My Travel</h1>
         <div>
           <p ClassName="botao">
             <a
@@ -80,7 +80,6 @@ const Home = () => {
         </div>
       </div>
 
-      <Rodape />
     </>
   );
 };
